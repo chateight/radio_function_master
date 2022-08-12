@@ -1,5 +1,13 @@
 radio.onReceivedNumber(function (receivedNumber) {
     basic.showString("" + (receivedNumber))
+    basic.pause(2000)
+    basic.showLeds(`
+        . # . # .
+        # . # . #
+        # . . . #
+        . # . # .
+        . . # . .
+        `)
 })
 basic.showLeds(`
     . # . # .
