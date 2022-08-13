@@ -22,12 +22,12 @@ basic.forever(function () {
     if (input.buttonIsPressed(Button.A)) {
         music.playTone(262, music.beat(BeatFraction.Whole))
         radio.setGroup(1)
-        radio.sendNumber(1)
+        radio.sendString("hello!")
     }
     if (input.buttonIsPressed(Button.B)) {
         music.playTone(330, music.beat(BeatFraction.Whole))
         radio.setGroup(1)
-        radio.sendNumber(0)
+        radio.sendString("bye")
     }
     basic.pause(200)
 })
