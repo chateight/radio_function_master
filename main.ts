@@ -1,5 +1,6 @@
-radio.onReceivedNumber(function (receivedNumber) {
-    basic.showString("" + (receivedNumber))
+radio.onReceivedString(function (receivedString) {
+    music.playTone(392, music.beat(BeatFraction.Whole))
+    basic.showString(receivedString)
     basic.pause(2000)
     basic.showLeds(`
         . # . # .
