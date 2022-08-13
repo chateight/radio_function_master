@@ -1,5 +1,5 @@
 radio.onReceivedString(function (receivedString) {
-    music.playTone(392, music.beat(BeatFraction.Whole))
+    music.playTone(523, music.beat(BeatFraction.Whole))
     basic.showString(receivedString)
     basic.pause(2000)
     basic.showLeds(`
