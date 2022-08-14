@@ -19,6 +19,7 @@ basic.showLeds(`
     `)
 music.playMelody("D E G A B B A A ", 250)
 radio.setGroup(1)
+radio.setTransmitPower(7)
 basic.forever(function () {
     if (input.buttonIsPressed(Button.A)) {
         music.playTone(262, music.beat(BeatFraction.Whole))
