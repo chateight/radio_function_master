@@ -1,3 +1,5 @@
+micro:bit multiple units radio function, for the master unit code
+
 
 > このページを開く [https://chateight.github.io/radio_function_master/](https://chateight.github.io/radio_function_master/)
 
